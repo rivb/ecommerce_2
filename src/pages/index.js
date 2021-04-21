@@ -64,7 +64,6 @@ const StoreIndex = ({location}) => {
             margin: '0 auto',
           }}
         >
-          <Image src={logo} alt="logo" />
         </Header.Content>
       </Header>
       <ProductList products={filterProductsWithoutImages} />

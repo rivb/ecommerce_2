@@ -129,26 +129,7 @@ const MobileMenu = ({location: {pathname}, token, cartCount, signout}) => {
               <StyledLink to="/cart/" onClick={handleClose}>
                 {`Shopping Cart ${cartCount ? `(${cartCount})` : ''}`}
               </StyledLink>
-              <StyledDivider />
-              {token
-                ? [
-                    <StyledLink to="/myaccount/" onClick={handleClose} key={1}>
-                      My Account
-                    </StyledLink>,
-                    <StyledDivider key={2} />,
-                    <StyledLink to="/" onClick={signout} key={3}>
-                      Sign out
-                    </StyledLink>,
-                  ]
-                : [
-                    <StyledLink to="/register/" onClick={handleClose} key={1}>
-                      Sign Up
-                    </StyledLink>,
-                    <StyledDivider key={2} />,
-                    <StyledLink to="/login/" onClick={handleClose} key={3}>
-                      Sign In
-                    </StyledLink>,
-                  ]}
+              <StyledDivider />                
             </StyledContainer>
           </StyledSegment>
         </Portal>

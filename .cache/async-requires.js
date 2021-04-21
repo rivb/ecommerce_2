@@ -5,6 +5,7 @@ exports.components = {
   "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("./../../../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-cart-js": () => import("./../../../src/pages/cart.js" /* webpackChunkName: "component---src-pages-cart-js" */),
+  "component---src-pages-form-js": () => import("./../../../src/pages/form.js" /* webpackChunkName: "component---src-pages-form-js" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-login-js": () => import("./../../../src/pages/login.js" /* webpackChunkName: "component---src-pages-login-js" */),
   "component---src-pages-myaccount-js": () => import("./../../../src/pages/myaccount.js" /* webpackChunkName: "component---src-pages-myaccount-js" */),

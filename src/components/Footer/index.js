@@ -2,19 +2,19 @@ import React from 'react'
 import {Link} from 'gatsby'
 import {Segment, Container, Grid, List, Header} from 'semantic-ui-react'
 
-const twitterLink = (
-  <a href="https://twitter.com/parmsang" alt="twitter link">
-    Twitter
+const instagramLink = (
+  <a href="https://www.instagram.com/bloque_55/?hl=es-la" alt="instagram link">
+    Instagram
   </a>
 )
 const facebookLink = (
-  <a href="https://facebook.com/" alt="facebook link">
+  <a href="https://www.facebook.com/Bloque55" alt="facebook link">
     Facebook
   </a>
 )
-const emailLink = (
-  <a href="mailto:john@doe.com" alt="email link">
-    Email
+const whatsappLink = (
+  <a href="mailto:john@doe.com" alt="whatsapp link">
+    Whatsapp
   </a>
 )
 
@@ -31,35 +31,35 @@ const Footer = () => (
       <Grid stackable>
         <Grid.Row>
           <Grid.Column width={4}>
-            <Header as="h4" content="About" />
+            <Header as="h4" content="Sobre" />
             <List>
               <List.Item as={Link} to="/privacy/">
-                Privacy
+                Privacidad
               </List.Item>
               <List.Item as={Link} to="/terms/">
-                Terms
+                Terminos
               </List.Item>
             </List>
           </Grid.Column>
           <Grid.Column width={5}>
-            <Header as="h4" content="Services" />
+            <Header as="h4" content="Nosotros" />
             <List>
               <List.Item as={Link} to="/">
-                Our Products
+                Nuestros Productos
               </List.Item>
             </List>
           </Grid.Column>
           <Grid.Column width={7}>
-            <Header as="h4">Footer Header</Header>
+            <Header as="h4">Bloque 55</Header>
             <p>
               Extra space for a call to action inside the footer that could help
               re-engage users.
             </p>
             <List horizontal style={{display: 'flex'}}>
               <List.Item
-                icon="twitter"
+                icon="instagram"
                 style={{display: 'flex'}}
-                content={twitterLink}
+                content={instagramLink}
               />
               <List.Item
                 icon="facebook"
@@ -67,9 +67,9 @@ const Footer = () => (
                 content={facebookLink}
               />
               <List.Item
-                icon="mail"
+                icon="whatsapp"
                 style={{display: 'flex'}}
-                content={emailLink}
+                content={whatsappLink}
               />
             </List>
           </Grid.Column>

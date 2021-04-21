@@ -30,7 +30,6 @@ class ProductPageTemplate extends React.PureComponent {
       <Layout location={this.props.location}>
         <SEO title={slug} />
         <ProductSummary {...product} />
-        <ProductAttributes {...product} />
       </Layout>
     )
   }
